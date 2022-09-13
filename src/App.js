@@ -54,7 +54,7 @@ export default function App() {
           <Form>
             <Form.Field
               control={TextArea}
-              placeholder="Type Text English to Translate.."
+              placeholder="Type Text to Translate.."
               onChange={(e) => setInputText(e.target.value)}
             />
 
